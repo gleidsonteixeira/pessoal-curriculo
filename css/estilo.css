@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+body{
+    background-color: #F5F6F7;
+    background-image: url(../images/triangles-top.svg), url(../images/triangles-bottom.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    color: #44566C;
+}
+
+main{
+    padding: 160px 55px 0 55px;
+}
+main aside{
+    width: 310px;
+    background-color: #F5F8F9;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 26px 10px #00000010;
+    position: fixed;
+    top: 160px;
+    left: 55px;
+    transition-duration: .2s;
+}
+main aside.active{
+    top: 30px;
+}
+main aside .perfil{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px 20px 0 0;
+}
+main aside figure{
+    width: 180px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -120px;
+    transition-duration: .3s;
+}
+main aside.active figure{
+    margin-top: 0;
+}
+main aside figure img{
+    width: 100%;
+    display: block;
+}
+main aside h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+main aside h1 strong{
+    font-family: inherit;
+    font-weight: 700;
+}
+main aside h6{
+    display: flex;
+    justify-content: center;
+}
+main aside h6 span{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 16px;
+    border-radius: 15px;
+    background-color: #F5F6F7;
+}
+main ul.redes-sociais{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+main ul.redes-sociais a{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    color: #44566C;
+}
+main ul.contatos{
+    padding: 30px;
+    list-style: none;
+}
+main ul.contatos li{
+    line-height: 36px;
+    font-size: 14px;
+}
+main ul.contatos li i{
+    width: 36px;
+    text-align: center;
+}
+main .btn{
+    width: calc(100% - 60px);
+    line-height: 60px;
+    display: block;
+    border-radius: 20px;
+    background-color: #0056b3;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    transition-duration: .2s;
+}
+main .btn:hover{
+    background-color: #304CFD;
+}
+main .btn i{
+    width: 36px;
+    text-align: center;
+}
+
+
+
+
